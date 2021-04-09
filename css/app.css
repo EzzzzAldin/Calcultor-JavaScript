@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("../img/Midoriya.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#ma #input #in {
+	margin-top: 20rem;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding-left: 5px;
+    width: 370px;
+    font-family: cursive;
+    font-size: larger;
+}
+#ma #button .btn1 {
+	margin-top: 3rem;
+    height: 70px;
+    width: 70px;
+    border: 0;
+    border-radius: 100px;
+    font-size: larger;
+    background-color: #93f392c4;
+    font-family: cursive;
+    color: #a51717;
+}
+#ma #button .btn1:hover {
+	background-color: #93f392;
+}
+#ma #clear .btn2 {
+	margin-top: 0.5rem;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 100px;
+    font-size: larger;
+    background-color: #93f392c4;
+    font-family: cursive;
+    color: #a51717;
+    margin-left: 170px;
+}
+#ma #clear .btn2:hover {
+	background-color: #93f392;
+}
