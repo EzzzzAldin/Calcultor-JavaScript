@@ -1,51 +1,69 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
+
 body {
-	background-image: url("../img/Midoriya.jpg");
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+  background-color: #6998ab;
 }
-#ma #input #in {
-	margin-top: 20rem;
-    height: 40px;
-    border: 1px solid #000;
-    border-radius: 3px;
-    padding-left: 5px;
-    width: 370px;
-    font-family: cursive;
-    font-size: larger;
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+  color: #ecb365;
 }
-#ma #button .btn1 {
-	margin-top: 3rem;
-    height: 70px;
-    width: 70px;
-    border: 0;
-    border-radius: 100px;
-    font-size: larger;
-    background-color: #93f392c4;
-    font-family: cursive;
-    color: #a51717;
+
+#calc {
+  width: 400px;
+  height: 450px;
+  margin: 30px auto;
+  background-color: #ecb365;
+  border-radius: 10px;
+  border: #406882 solid 5px;
 }
-#ma #button .btn1:hover {
-	background-color: #93f392;
+
+#calc #input #in {
+  margin-top: 10%;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: 8%;
+  font-size: 50px;
+  background-color: #1a374d;
+  color: white;
 }
-#ma #clear .btn2 {
-	margin-top: 0.5rem;
-    height: 60px;
-    width: 60px;
-    border: 0;
-    border-radius: 100px;
-    font-size: larger;
-    background-color: #93f392c4;
-    font-family: cursive;
-    color: #a51717;
-    margin-left: 170px;
+
+#calc #button .btn1,
+.btn2 {
+  margin-top: 60px;
+  margin-left: 40px;
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+  background-color: #1a374d;
+  border: #a6d1e6 solid 2px;
+  color: white;
 }
-#ma #clear .btn2:hover {
-	background-color: #93f392;
+
+#calc #button .btn1:hover {
+  background-color: #a6d1e6;
+  cursor: pointer;
+  border: #406882 solid 2px;
+}
+
+#calc .btn2 {
+  background-color: #a6d1e6;
+  color: white;
+  border: none;
+}
+
+#calc .btn2:hover {
+  cursor: pointer;
+  border: #406882 solid 2px;
 }
